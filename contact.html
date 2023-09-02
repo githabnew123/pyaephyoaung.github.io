@@ -18,6 +18,35 @@
           a {
             text-decoration: none;
           }
+          .dot {
+              height: 75px;
+              width: 75px;
+              background-color: skyblue;
+              border-radius: 50%;
+              display: inline-block;
+            }
+            .dot1 {
+              height: 50px;
+              width: 50px;
+              background-color: skyblue;
+              border-radius: 50%;
+              display: inline-block;
+            }
+            .centered {
+              position: absolute;
+              top: 43%;
+              left: 50%;
+              transform: translate(-51%, -50%);
+            }
+            .container1 {
+              position: relative;
+              text-align: center;
+              color: white;
+            }
+            h1 {
+                font-family: timenewsroman;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body class="sb-nav-fixed">
@@ -53,21 +82,34 @@
                     </div>
                 </nav>
             </div>
-            <div id="layoutSidenav_content" class="text-center">
+            <div id="layoutSidenav_content">
                 <main>
                     <h1 class="mt-4">Contact Me</h1>
-                    <div class="container-fluid px-4 col-lg-10 row w-50 text-center">
-                        <div class="col-lg-4 text-info" id="contact">
-                          <i class="fa-solid fa-phone"></i>
-                          <a href="tel:+959766400470">Call Me</a>
+                    <div class="container-fluid px-4 row container1 mb-4">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-6 container1">
+                                  <span class="dot"></span>
+                                  <a href="tel:+959766400470" id="contact"><i class="fa-solid fa-phone centered dot1"></i></a>
+                                </div>
+                                <div class="col-6 container1">
+                                    <span class="dot"></span>
+                                  <a href="mailto:pyaep2863@gmail.com" id="contact"><i class="fa-regular fa-envelope centered dot1 text-danger"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 container1">
+                                    <span class="dot"></span>
+                                  <a href="https://www.facebook.com/profile.php?id=100014219498015" id="contact"><i class="fa-brands centered fa-facebook dot"></i></a>
+                                </div>
+                                <div class="col-6 container1">
+                                    <span class="dot"></span>
+                                  <a href="https://msng.link/o?09766400470=vi"><i class="fa-brands fa-viber centered dot1"></i></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4 text-danger" id="contact">
-                          <i class="fa-regular fa-envelope"></i>
-                          <a href="mailto:pyaep2863@gmail.com">Mail Me</a>
-                        </div>
-                        <div class="col-lg-4 text-info" id="contact">
-                          <i class="fa-brands fa-facebook"></i>
-                          <a href="https://www.facebook.com/profile.php?id=100014219498015">Join Me</a>
+                        <div class="col-lg-6">
+                            <img src="images/4.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </main>
