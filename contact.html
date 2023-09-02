@@ -10,6 +10,15 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <style type="text/css">
+          #contact {
+            font-size: 30px;
+            font-weight: bold;
+          }
+          a {
+            text-decoration: none;
+          }
+        </style>
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -28,7 +37,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-person"></i></div>
                                 Personal Information
                             </a>
-                            <a class="nav-link" href="projects.html">
+                            <a class="nav-link" href="personal skills.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-person"></i></div>
                                 Personal Skills
                             </a>
@@ -44,44 +53,22 @@
                     </div>
                 </nav>
             </div>
-            <div id="layoutSidenav_content">
+            <div id="layoutSidenav_content" class="text-center">
                 <main>
-                    <h1 class="mt-4">Personal Skills</h1>
-                    <div class="container-fluid px-4 col-lg-6">
-                        <table class="table table-striped">
-                          <tbody>
-                            <tr>
-                              <th scope="row">English</th>
-                              <th scope="row">:</th>
-                              <th scope="row">Basic</th>
-                            </tr>
-                            <tr>
-                              <th scope="row">Microsoft Office</th>
-                              <th scope="row">:</th>
-                              <th scope="row">Intermediate</th>
-                            </tr>
-                            <tr>
-                              <th scope="row">Adobe</th>
-                              <th scope="row">:</th>
-                              <th scope="row">Basic</th>
-                            </tr>
-                            <tr>
-                              <th scope="row">Computer Knowledge</th>
-                              <th scope="row">:</th>
-                              <th scope="row">Excellent</th>
-                            </tr>
-                            <tr>
-                              <th scope="row">Communication</th>
-                              <th scope="row">:</th>
-                              <th scope="row">Good</th>
-                            </tr>
-                            <tr>
-                              <th scope="row">Team Work</th>
-                              <th scope="row">:</th>
-                              <th scope="row">Good</th>
-                            </tr>
-                          </tbody>
-                        </table>
+                    <h1 class="mt-4">Contact Me</h1>
+                    <div class="container-fluid px-4 col-lg-10 row w-50 text-center">
+                        <div class="col-lg-4 text-info" id="contact">
+                          <i class="fa-solid fa-phone"></i>
+                          <a href="tel:+959766400470">Call Me</a>
+                        </div>
+                        <div class="col-lg-4 text-danger" id="contact">
+                          <i class="fa-regular fa-envelope"></i>
+                          <a href="mailto:pyaep2863@gmail.com">Mail Me</a>
+                        </div>
+                        <div class="col-lg-4 text-info" id="contact">
+                          <i class="fa-brands fa-facebook"></i>
+                          <a href="https://www.facebook.com/profile.php?id=100014219498015">Join Me</a>
+                        </div>
                     </div>
                 </main>
             </div>
